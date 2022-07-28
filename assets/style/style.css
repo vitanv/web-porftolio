@@ -19,7 +19,10 @@
     font-size: 15px;
     text-shadow: 2px 2px black;
 }
-
+.hero-image{
+    height:100vh;
+    width: 100vw;
+}
 .nav-visible{
     background-color:black ;
 }
