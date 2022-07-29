@@ -73,6 +73,40 @@
                 
             </div>
         </section>
+        <section class="contacts">
+            <h2 class="text-center">Contact me</h2>
+            <div class="container mt-3">
+                <div class="col-md-9 mb-md-0 mb-5">
+                    <form class="contact-form" name="contanct-form" action="mail.php" method="POSt">
+                        <div class="row mt-4">
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" class="form-control" id="name" name="name">
+                                    <label for="name">Your name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" class="form-control" id="email" name="email">
+                                    <label for="email">Your email</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-md-12">
+                                <div class="md-form">
+                                    <textarea type="text" class="form-control md-textarea" id="message" name="message" rows="2"></textarea>
+                                    <label for="message">Your message</label>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="text-center text-md-left">
+                        <a class="btn btn-primary" id="send-btn">send</a>
+                    </div>
+                </div>
+            </div>
+        </section>
         <script src="assets/script/script.js"></script>
     </body>
 </html>

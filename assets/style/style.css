@@ -40,3 +40,6 @@
 a:link{
     text-decoration: none;
 }
+.contacts{
+    min-height:100vh;
+}
