@@ -40,6 +40,7 @@
 a:link{
     text-decoration: none;
 }
-.contacts{
-    min-height:100vh;
+#contact-list{
+    text-align: right;
+    list-style-position: inside;
 }
