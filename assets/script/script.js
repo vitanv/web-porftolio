@@ -19,5 +19,5 @@ function sendEmail(){
         From:document.getElementById("email").value,
         Subject:document.getElementById("subject").value,
         Body:document.getElementById("body").value
-    }).then(message => alert(Mesage Send));
+    }).then(message => alert("Message Send"));
 }
