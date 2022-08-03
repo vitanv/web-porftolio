@@ -124,13 +124,13 @@
                     <div class="col-lg-6">
                         <form class="contact-form">
                             <input type="text" class ="form-control mt-3" placeholder="Name">
-                            <input type="email" class="form-control mt-3" placeholder="E-mail">
-                            <input type="text" class="form-control mt-3" placeholder="Subject">
+                            <input type="email" class="form-control mt-3" placeholder="E-mail" id="email">
+                            <input type="text" class="form-control mt-3" placeholder="Subject" id="subject">
                             <div class="mb-3 mt-3">
-                                <textarea class="form-control" rows="5" id="form-text" placeholder="Message"></textarea>
+                                <textarea class="form-control" rows="5" id="form-text" placeholder="Message" id="body"></textarea>
                             </div>
                         </form>
-                        <button class="btn btn-primary">Send</button>
+                        <button onclick="sendEmail()" class="btn btn-primary">Send</button>
                     </div>
                     <div class="col-lg-6">
                         <ul class="list-unstyled" id="contact-list">
@@ -151,6 +151,7 @@
                 </div>
             </div>
         </section>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
         <script src="assets/script/script.js"></script>
     </body>
 </html>

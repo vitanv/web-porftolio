@@ -9,3 +9,15 @@ window.onscroll = function (){
         nav.classList.remove("nav-visible");
     }
 }
+
+function sendEmail(){
+    Email.send({
+        Host:"smtp.elasticemail.com",
+        Username:"sadgr32@mail.com",
+        Password:"FE613305A41A062DEE2EAE9C131C130C501B",
+        To:"sadgr32@mail.com",
+        From:document.getElementById("email").value,
+        Subject:document.getElementById("subject").value,
+        Body:document.getElementById("body").value
+    }).then(message => alert(Mesage Send));
+}
