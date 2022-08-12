@@ -10,19 +10,4 @@ window.onscroll = function (){
     }
 }
 
-const contact_form = document.getElementById("contact-form");
 
-const clickSubmit = contact_form.addEventListener("submit", (event) => {
-    event.preventDefault();
-    var mail = new FormData(contact_form);
-    sendMail(mail);
-});
-
-const sendMail = (mail) =>{
-    fetch("/send",{
-        method:"post",
-        body:mail,
-    }).then((response) => {
-        return response.json();
-    });
-}
