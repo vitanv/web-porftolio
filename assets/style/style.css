@@ -1,3 +1,7 @@
+section{
+    height: 100vh;
+}
+
 .nav-link{
     color: white;
 }
@@ -40,12 +44,14 @@
 a:link{
     text-decoration: none;
 }
-#contact-list{
-    text-align: right;
-    list-style-position: inside;
-}
+
 
 .skill-image{
     height: 12rem;
     width: 12rem;
+}
+
+#contact-list{
+    text-align: center;
+    list-style: none;
 }
