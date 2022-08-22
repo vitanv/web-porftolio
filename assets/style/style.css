@@ -49,9 +49,13 @@ a:link{
     text-decoration: none;
 }
 
-
 .skill-image{
     height: 12rem;
     width: 12rem;
+}
+
+.contacts{
+    display: flex;
+    align-items: stretch;
 }
 
