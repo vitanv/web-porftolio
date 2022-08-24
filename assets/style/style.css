@@ -70,7 +70,10 @@ a:link{
 
 .contact-text{
     padding-top: 1rem;
+    text-decoration: none;
+    color: #000;
 }
+
 
 .contact-container{
     display: block;
