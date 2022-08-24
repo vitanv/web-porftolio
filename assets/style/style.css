@@ -3,10 +3,10 @@ h2{
 }
 
 section{
-    height: 100vh;
+    min-height: 100vh;
 }
 .row{
-    width: 100%;
+    min-width: 100%;
 }
 .nav-link{
     color: white;
